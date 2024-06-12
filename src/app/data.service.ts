@@ -8,16 +8,16 @@ import { FeatureLabel } from './models/feature-types';
   providedIn: 'root'
 })
 export class DataService {
-  private getDataUrl = 'https://frontend-analyzer.onrender.com/data/visualize';
-  private updateDataUrl = 'https://frontend-analyzer.onrender.com/data/update';
-  private normalizeDataUrl = 'https://frontend-analyzer.onrender.com/data/normalize';
-  private downloadDataUrl = 'https://frontend-analyzer.onrender.com/data/download';
-  private getPcaInfoUrl = 'https://frontend-analyzer.onrender.com/data/pca/stats';
-  private getPcaPlotUrl = 'https://frontend-analyzer.onrender.com/data/pca/plot';
+  private getDataUrl = 'https://backend-analyzer.onrender.com/data/visualize';
+  private updateDataUrl = 'https://backend-analyzer.onrender.com/data/update';
+  private normalizeDataUrl = 'https://backend-analyzer.onrender.com/data/normalize';
+  private downloadDataUrl = 'https://backend-analyzer.onrender.com/data/download';
+  private getPcaInfoUrl = 'https://backend-analyzer.onrender.com/data/pca/stats';
+  private getPcaPlotUrl = 'https://backend-analyzer.onrender.com/data/pca/plot';
   private updateFeatureSelectionUrl = 'https://frontend-analyzer.onrender.com/data/select-features';
 
-  private getClusterInfoUrl = 'https://frontend-analyzer.onrender.com/data/cluster/compute';
-  private getClusterPlotUrl = 'https://frontend-analyzer.onrender.com/data/cluster/plot';
+  private getClusterInfoUrl = 'https://backend-analyzer.onrender.com/data/cluster/compute';
+  private getClusterPlotUrl = 'https://backend-analyzer.onrender.com/data/cluster/plot';
 
   // A customizable field, will be replaced by user input in near future
   maxNoRecords: number = 100;
