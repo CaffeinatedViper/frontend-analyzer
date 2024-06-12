@@ -8,16 +8,16 @@ import { FeatureLabel } from './models/feature-types';
   providedIn: 'root'
 })
 export class DataService {
-  private getDataUrl = 'http://localhost:5000/data/visualize';
-  private updateDataUrl = 'http://localhost:5000/data/update';
-  private normalizeDataUrl = 'http://localhost:5000/data/normalize';
-  private downloadDataUrl = 'http://localhost:5000/data/download';
-  private getPcaInfoUrl = 'http://localhost:5000/data/pca/stats';
-  private getPcaPlotUrl = 'http://localhost:5000/data/pca/plot';
-  private updateFeatureSelectionUrl = 'http://localhost:5000/data/select-features';
+  private getDataUrl = 'https://frontend-analyzer.onrender.com/data/visualize';
+  private updateDataUrl = 'https://frontend-analyzer.onrender.com/data/update';
+  private normalizeDataUrl = 'https://frontend-analyzer.onrender.com/data/normalize';
+  private downloadDataUrl = 'https://frontend-analyzer.onrender.com/data/download';
+  private getPcaInfoUrl = 'https://frontend-analyzer.onrender.com/data/pca/stats';
+  private getPcaPlotUrl = 'https://frontend-analyzer.onrender.com/data/pca/plot';
+  private updateFeatureSelectionUrl = 'https://frontend-analyzer.onrender.com/data/select-features';
 
-  private getClusterInfoUrl = 'http://localhost:5000/data/cluster/compute';
-  private getClusterPlotUrl = 'http://localhost:5000/data/cluster/plot';
+  private getClusterInfoUrl = 'https://frontend-analyzer.onrender.com/data/cluster/compute';
+  private getClusterPlotUrl = 'https://frontend-analyzer.onrender.com/data/cluster/plot';
 
   // A customizable field, will be replaced by user input in near future
   maxNoRecords: number = 100;
