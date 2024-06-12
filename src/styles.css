@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+
+.body {
+    margin: 0;
+    overflow-y: hidden;
+}
+
+.static-icon {
+    user-select: none;
+}
+
+/* Global info-button style, you can create specialized info-button styles in component's stylesheets */
+.info-button {
+    position: absolute;
+    z-index: 1;
+    background: none;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
+
+
+/* Global conent box style with shadows and padding, used as main container in views like DataView or PcaView */
+.content-container {
+    flex-grow: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 0 20px;
+}
