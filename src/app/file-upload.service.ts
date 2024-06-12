@@ -8,7 +8,7 @@ import { DataService } from './data.service';
 })
 
 export class FileUploadService {
-  private uploadUrl = "https://frontend-analyzer.onrender.com/upload";
+  private uploadUrl = "https://backend-analyzer.onrender.com/upload";
 
   constructor(private http : HttpClient, private dataService: DataService) { }
 
